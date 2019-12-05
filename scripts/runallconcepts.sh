@@ -82,9 +82,9 @@ done
    
 java -jar ../../HarmonizedConsentsGenerator.jar -propertiesfile resources/${studyid,,}/job.config
 
-aws s3 cp ../../completed/ConsentGroupVariable.csv s3://$1/data/ConsentGroupVariable.csv
+aws s3 cp ../../completed/ConsentGroupVariable.csv s3://$1/consents/data/ConsentGroupVariable.csv
 
-aws s3 cp ../../mappings/consentmapping.csv s3://$1/mappings/consentmapping.csv
+aws s3 cp ../../mappings/consentmapping.csv s3://$1/consents/mappings/consentmapping.csv
 
 nohup java -jar ../../DbGapDataMerge.jar -propertiesfile resources/job.config -Xmx50g &
 
