@@ -1,0 +1,74 @@
+"\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00252968,SUBJECT_ID
+"\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00252969,CONSENT
+"\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00259063,SUBJECT_SOURCE
+"\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00259064,SOURCE_SUBJECT_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266359,FAMILY_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266360,SUBJECT_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266361,FATHER
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266362,MOTHER
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266363,SEX
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266364,MZTWIN
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Pedigree\,phv00266365,DEGREE2
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject Sample Mapping\,phv00252970,SUBJECT_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Subject Sample Mapping\,phv00252971,SAMPLE_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Other IDs and Administration\,phv00252973,SUBJECT_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sociodemography and Administration\Other IDs and Administration\,phv00252974,baseline_study
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252975,SEX
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252976,age_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252977,age_at_dna
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252978,pregnant_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252979,weight_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252980,waist_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252981,whr_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252982,height_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252983,bmi_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252984,mi_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252998,t2diabetes_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Physical Observations\,phv00252985,stroke_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252986,cac_agatston_score
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252987,cac_score_age
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252988,imt_mean_farwall_cca_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252989,imt_anyplaque_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252991,fibrinogen_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252992,crp_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252993,il6_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252994,lpa_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252995,sbp_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00252996,dbp_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253000,fastinsulin_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253001,fastglucose_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253002,ekg_qrs_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253003,ekg_qt_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253004,ekg_pr_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253005,ekg_hr_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253006,white_blood_cell_count_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253007,hemoglobin_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253008,hematocrit_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253009,platelet_count_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253010,red_blood_cell_count_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253011,neutrophils_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253012,monocytes_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253013,lymphocytes_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253014,eosinophils_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253015,basophils_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253016,creatinine_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253017,ldl_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253018,hdl_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253019,trigs_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253020,totchol_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253022,fvc_pre_bd_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Laboratory Measurements\,phv00253023,fev1_pre_bd_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Lifestyle and Environment\Medications\,phv00252997,htn_med_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Lifestyle and Environment\Medications\,phv00252999,t2d_med_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Lifestyle and Environment\Medications\,phv00253021,lipid_med_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Lifestyle and Environment\Smoking Status\,phv00252990,current_smoker_baseline
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00253024,SAMPLE_ID
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00253025,BODY_SITE
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00253026,ANALYTE_TYPE
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00253027,HISTOLOGICAL_TYPE
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00253028,IS_TUMOR
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00282733,SEQUENCING_CENTER
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00282734,Funding_Source
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00282735,TOPMed_Phase
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00282736,TOPMed_Project
+\NHLBI TOPMed: Genetics of Cardiometabolic Health in the Amish\Sample Attributes\,phv00282737,Study_Name

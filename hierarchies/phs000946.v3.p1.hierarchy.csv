@@ -1,0 +1,29 @@
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Sociodemography and Administration\,phv00266110,SUBJECT_ID
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Sociodemography and Administration\,phv00266111,GENDER
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Sociodemography and Administration\,phv00266112,RACE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Sociodemography and Administration\,phv00266113,VISIT_AGE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Physical Observations\,phv00266123,BMI
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Physical Observations\,phv00266114,DNA_AGE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Physical Observations\,phv00266120,PREGNANCY
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Physical Observations\,phv00266121,WEIGHT
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Physical Observations\,phv00266122,HEIGHT
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Lifestyle and Environment\Smoking\,phv00266117,CIGSPERDAY
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Lifestyle and Environment\Smoking\,phv00266118,CIGSPERDAY_AVERAGE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Lifestyle and Environment\Smoking\,phv00266116,CURRENT_SMOKER
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Lifestyle and Environment\Smoking\,phv00266115,FORMER_SMOKER
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subject Phenotype\Lifestyle and Environment\Smoking\,phv00266119,PACKYEARS
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00252868,SAMPLE_ID
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00252870,ANALYTE_TYPE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00252869,BODY_SITE
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00352941,Funding_Source
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00252871,IS_TUMOR
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00252872,SEQUENCING_CENTER
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00352944,Study_Name
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00352942,TOPMed_Phase
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Sample Phenotype\,phv00352943,TOPMed_Project
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subjects\,phv00252862,SUBJECT_ID
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subjects\,phv00252864,AFFECTION_STATUS
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Subjects\,phv00252863,CONSENT
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Samples\,phv00252865,SUBJECT_ID
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Samples\,phv00252866,SAMPLE_ID
+\NHLBI TOPMed: Boston Early-Onset COPD Study in the TOPMed Program\Samples\,phv00252867,SAMPLE_USE

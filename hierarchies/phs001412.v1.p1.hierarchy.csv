@@ -1,0 +1,56 @@
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Affection Status\,phv00310006,AFFECTION_STATUS
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Affection Status\,phv00310020,DIABETES
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Sociodemography\,phv00310016,AGE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Sociodemography\,phv00310017,SEX
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Sociodemography\,phv00310019,RACE
+"\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00310004,SUBJECT_ID
+"\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00310005,CONSENT
+"\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00400170,SUBJECT_SOURCE
+"\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00400171,SOURCE_SUBJECT_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00310007,FAMILY_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00310008,SUBJECT_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00310009,FATHER
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00310010,MOTHER
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00310011,SEX
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Pedigree\,phv00400172,NOTES
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject Sample Mapping\,phv00310012,SUBJECT_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Subject Sample Mapping\,phv00310013,SAMPLE_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sociodemography and Administration\Other IDs\,phv00310015,SUBJECT_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Medical History\,phv00310020,DIABETES
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Medical History\,phv00310024,DURATION
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310029,WEIGHT
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310030,HEIGHT
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310034,SBP
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310035,DBP
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310016,AGE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310017,SEX
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Physical Observations\,phv00310018,BMI
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310021,AVECAC_130
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310022,AVECAROTID_130
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310023,AORTA_130
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310037,IMT
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310031,VAT
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310032,SAT
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310033,VSR
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310025,HBA1C
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310026,GLUCOSE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310027,EGFR
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310028,ACR
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310038,CHOL
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310039,HDL
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310040,LDL
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310041,TRIG
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Laboratory Tests\,phv00310042,CRP
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Lifestyle and Environment\,phv00310036,HYP_MED
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Lifestyle and Environment\,phv00400173,LIPID_MED
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310043,SAMPLE_ID
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310044,BODY_SITE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310045,ANALYTE_TYPE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310046,IS_TUMOR
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310047,HISTOLOGICAL_TYPE
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310048,GENOTYPING_CENTER
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00310049,SEQUENCING_CENTER
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00400175,Funding_Source
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00400176,TOPMed_Phase
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00400177,TOPMed_Project
+\NHLBI TOPMed: Diabetes Heart Study (DHS) African American Coronary Artery Calcification (AA CAC)\Sample Attributes\,phv00400178,Study_Name

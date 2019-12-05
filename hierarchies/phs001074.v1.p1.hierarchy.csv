@@ -1,0 +1,129 @@
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Sociodemography\,phv00259608,AGE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Sociodemography\,phv00259609,SEX
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Sociodemography\,phv00259610,RACE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Subject IDs and Consents\,phv00259597,SUBJECT_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Subject IDs and Consents\,phv00259598,CONSENT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Pedigree\,phv00259599,FAMILY_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Pedigree\,phv00259600,SUBJECT_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Pedigree\,phv00259601,FATHER
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Pedigree\,phv00259602,MOTHER
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Pedigree\,phv00259603,SEX
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Subject Sample Mapping and Sample Use\,phv00259604,SUBJECT_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Subject Sample Mapping and Sample Use\,phv00259605,SAMPLE_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Subject Sample Mapping and Sample Use\,phv00259606,SAMPLE_USE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Other IDs and Administration\,phv00259607,SUBJECT_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sociodemography and Administration\Other IDs and Administration\,phv00259611,VISIT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259608,AGE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259609,SEX
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259622,BMI
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259612,HBPRESSURE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259613,HBPORRX
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259614,SBPAVE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Physical Observations\,phv00259615,DBPAVE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Glucose\,phv00259616,DIABETIC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Glucose\,phv00259617,GLUC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Lipids\,phv00259618,TC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Lipids\,phv00259619,TG
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Lipids\,phv00259620,HDL
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Lipids\,phv00259621,LDL
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259624,WBC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259625,HGB
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259626,HCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259627,PLT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259628,RBC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259629,MCV
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259630,MCH
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259631,MCHC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259632,RDW
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259633,MPV
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259634,NRBC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259635,LYMPHNO
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259636,LYMPHPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259637,MONONO
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259638,MONOPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259639,EOSNO
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259640,EOSPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259641,BASOPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259642,NEUNO
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259643,NEUPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259644,GRANNO
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259645,GRANPCT
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Complete Blood Count\,phv00259646,FIBRINOGEN
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259647,atpcaa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259648,atpcadp
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259649,atpcc1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259650,atpcc5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259651,pfact
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259652,wbac1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259653,wbac5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259654,wbaadp
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259655,wbaaa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259656,wbaaaasa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259657,wbsc1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259658,wbsc5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259659,wbsadp
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259660,wbsaa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259661,wbsaaasa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259662,wblc1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259663,wblc5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259664,wbladp
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259665,wblaa
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259713,wcolc12hete
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259714,wcolcbtg
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Whole Blood\,phv00259715,wcolctxbc
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259666,prpaa_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259667,prpaa1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259668,prpaa1_6
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259669,prpaadp2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259670,prpaadp10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259671,prpac_25
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259672,prpac_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259673,prpac1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259674,prpac2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259675,prpac5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259676,prpac10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259677,prpac20
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259678,prpcec50
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259679,prpae2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259680,prpae10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259681,prpsaa_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259682,prpsaa1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259683,prpsaa1_6
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259684,prpsadp2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259685,prpsadp10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259686,prpsc_25
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259687,prpsc_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259688,prpsc1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259689,prpsc2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259690,prpsc5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259691,prpsc10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259692,prpsc20
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259693,prpse2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259694,prpse10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259695,prplaa_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259696,prplaa1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259697,prplaa1_6
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259698,prpladp2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259699,prpladp10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259700,prplc_25
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259701,prplc_5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259702,prplc1
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259703,prplc2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259704,prplc5
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259705,prplc10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259706,prplc20
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259707,prple2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259708,prple10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259709,prpsae2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259710,prpsae10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259711,prpraadp2
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Blood Measurements\Platelet Rich Plasma\,phv00259712,prpraadp10
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Laboratory Measurements\Urine Measurements\,phv00259716,utxbcr
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Lifestyle and Environment - Smoking and Medications\,phv00259623,SMOKNOW
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Lifestyle and Environment - Smoking and Medications\,phv00259613,HBPORRX
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Lifestyle and Environment - Smoking and Medications\,phv00259616,DIABETIC
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sample Attributes\,phv00259717,SAMPLE_ID
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sample Attributes\,phv00259718,BODY_SITE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sample Attributes\,phv00259719,ANALYTE_TYPE
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sample Attributes\,phv00259720,IS_TUMOR
+\GeneSTAR NextGen Functional Genomics of Platelet Aggregation\Sample Attributes\,phv00259721,GENOTYPING_CENTER

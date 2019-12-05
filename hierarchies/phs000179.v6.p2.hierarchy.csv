@@ -1,0 +1,341 @@
+\Genetic Epidemiology of COPD (COPDGene)\Subjects\,phv00159559,SUBJECT_ID
+\Genetic Epidemiology of COPD (COPDGene)\Subjects\,phv00159560,CONSENT
+\Genetic Epidemiology of COPD (COPDGene)\Subjects\,phv00159561,SUBJECT_SOURCE
+\Genetic Epidemiology of COPD (COPDGene)\Subjects\,phv00159562,SOURCE_SUBJECT_ID
+\Genetic Epidemiology of COPD (COPDGene)\Subjects\,phv00159563,AFFECTION_STATUS
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00169305,STUDY
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00159564,SUBJECT_ID
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00159565,SAMPLE_ID
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00159566,SAMPLE_SOURCE
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00159567,SOURCE_SAMPLE_ID
+\Genetic Epidemiology of COPD (COPDGene)\Samples\,phv00160250,SAMPLE_USE
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00159568,SUBJECT_ID
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00159569,deid_center
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00159836,Age_Enroll
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00169384,TLCpred_race_adjusted
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00169385,FRCpred_race_adjusted
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00169386,TLCpp_race_adjusted
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Sociodemography and Administration\Race Adjusted\,phv00169387,FRCpp_race_adjusted
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00159575,distwalked
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00159576,O2_suppl_6MW
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00159577,Walk_Course
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00159578,Walk_Limit
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00160261,WalkSymp_BackPain
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00160262,WalkSymp_JointPain
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00160263,WalkSymp_Legs_Fatigue
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\6MinWalk\,phv00160264,WalkSymp_ShortnessBreath
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Assessment Scoresheet\High Concerns\,phv00169327,QA_CalciumCalPad
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169370,Hu_15pct_Insp_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169371,IntensityMean_In_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169372,pctEmph_UpperThird_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169373,pctEmph_LowerThird_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169374,Hu_15pct_Exp_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169375,IntensityMean_Ex_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169376,UpperThird_LowerThird_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00169377,ExpInspMeanAtten_ratio_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00159820,TLC_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00159821,FRC_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00159822,pctEmph_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Slicer\,phv00159823,pctGasTrap_Slicer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Scanner\,phv00159581,scanner
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Scanner\,phv00159582,FinalApproval
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT Acquisition Parameters\CT Scanner\,phv00159846,Siemens64
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Demographics\,phv00159571,gender
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159591,Weight_KG
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159592,Height_CM
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159593,BMI
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159583,diasBP
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159590,sysBP
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Physical Characteristics\,phv00159584,HR
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00159585,O2_Hours_Day
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00159586,O2_Therapy
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00159588,O2_Years
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00159589,Resting_SaO2
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00160265,O2use_rest
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00160266,O2use_exercise
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Demographics and Physical Characteristics\Oxygen Saturation and Therapy\,phv00160267,O2use_sleep
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Eligibility Form\,phv00159572,race
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Eligibility Form\,phv00159573,ethnic
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\A1AD\,phv00169328,PhenoGenotype
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\A1AD\,phv00169329,PhenoGenoDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Back Pain\,phv00169332,LowerBackPain
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cancer\,phv00159603,CancerBladder
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cancer\,phv00159604,CancerBreast
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cancer\,phv00159605,CancerColon
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cancer\,phv00159606,CancerLung
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cancer\,phv00159607,CancerProstate
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159632,Angioplasty
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159609,CongestHeartFail
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159610,CoronaryArtery
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159612,HighBloodPres
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159613,HighCholest
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159615,HeartAttack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159618,PeriphVascular
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159619,Stroke
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159608,Angina
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159620,TIA
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159616,BloodClots
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Cardio Vascular Diseases\,phv00159631,CABG
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Diabetes\,phv00159611,Diabetes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Digestive System Diseases\,phv00159621,GastroEsophReflx
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Digestive System Diseases\,phv00159622,StomachUlcers
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Digestive System Diseases\,phv00159633,Alpha1Test
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Eye Diseases\,phv00159617,MacularDegen
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\General Health\,phv00159602,HealthStatus
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Musculoskeletal Diseases\,phv00159627,RheumArth
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Musculoskeletal Diseases\,phv00159625,OsteoArth
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Musculoskeletal Diseases\,phv00159626,Osteoporosis
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Musculoskeletal Diseases\,phv00159629,StiffPainBack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Musculoskeletal Diseases\,phv00159628,StiffPainLimitWk
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169333,PainJointType_Shoulder
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169334,PainJointType_Elbow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169335,PainJointType_Wrist
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169336,PainJointType_Hip
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169337,PainJointType_Knee
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169338,PainJointType_Foot
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Painful Joint Type\,phv00169331,PainfulJoints
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Respiratory Tract Diseases\,phv00159614,Pneumothorax
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159636,HowSoonSmoke
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159637,SmokeMore2hrs
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159638,CigHateGiveUp
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159639,FindHardNotSmoke
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159640,SmokeSickBed
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Smoking\,phv00159641,SmokeMenthol
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Wounds and Injuries\,phv00159624,HipFracture
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Wounds and Injuries\,phv00159623,CompressFracBack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medical History\Walking Limits\,phv00159630,LimitWalkMost
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159642,bagonist
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159643,bagonistlongact
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159652,theoph
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159644,CombcCSBagon
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159645,combivent
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159646,Cortsterinhal
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159647,CortsterOral
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159648,CurrentMedUse
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159649,ipratrop
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159651,nebulizer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Medication History\Treatment\,phv00159653,tiotrop
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159654,HaveCough
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159655,Cough4Plus
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159656,CoughAM_yn
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159657,CoughRestDay
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159658,Cough3Mo
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159659,CoughNumYr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Cough\,phv00159682,AwakeByCough
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159660,HavePhlegm
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159661,PhlegmOften
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159662,PhlegmAM
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159663,PhlegmRestDay
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159664,Phlegm3Mo
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159665,PhlegmNumYr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159666,EpisodeCghPhlm
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159667,NumEpisodeLastYr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Phlegm from Chest\,phv00159668,YrsEpisodeLast
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159669,ChstWheezyWhist
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159670,AgeWheezWhist
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159671,AgeWheezWhistDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159672,ShrtBrthAttk
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159673,AgeFirstAttack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159674,AgeFirstAttackDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159676,MedorTreatAttack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159677,ChestWheez12mo
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159678,WithCold
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159679,ApartFromCold
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159680,MoreOnceAWeek
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Wheezing or Whistling in Chest\,phv00159681,MostDaysNights
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Shortness of Breath\,phv00159675,ShrtBrth2Plus
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Shortness of Breath\,phv00159683,AwakeByShrtBrth
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Shortness of Breath\,phv00159688,LtdUphill
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Shortness of Breath\,phv00159692,LtdNotLeaveHm
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Sneezing\,phv00159684,SneezRunnyNose
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Sneezing\,phv00159685,ItchyBurningEye
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Walk Slower\,phv00159686,UnablWalkCondOth
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Walk Slower\,phv00159689,LtdLevelSlow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Walk Slower\,phv00159690,LtdLevelStop
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Symptoms\Walk Slower\,phv00159691,LtdLvlStop100
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Lung Problems\,phv00159693,ERLungProb
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Lung Problems\,phv00169339,ERLungProbtimes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Lung Problems\,phv00159844,Exacerbation_Frequency
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Lung Problems\,phv00169306,ExclusionaryDisease
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Treatment of Chest Illness\,phv00169340,TreatChestIll
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\COPD Exacerbations in the Last Year\Treatment of Chest Illness\,phv00169341,TreatChestTimes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Severity of COPD Exacerbations\Chest Trouble\,phv00169342,TreatSteroids
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Severity of COPD Exacerbations\Chest Trouble\,phv00169343,TreatSteroiTimes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Severity of COPD Exacerbations\Chest Trouble\,phv00159843,Severe_Exacerbations
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Severity of COPD Exacerbations\Chest Trouble\,phv00159694,FlareupChestTrb
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159701,Asthma
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159702,AsthmaAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159703,AsthmaAgeDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159704,AsthmaDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159705,AsthmaStillHave
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159706,AsthmaAgeStop
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159707,AsthmaStopChild
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Asthma\,phv00159708,AsthmaTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159709,HayFev
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159710,HayFevAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159711,HayFevAgeDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159712,HayFevDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159713,HayFevStillHave
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159714,HayFevAgeStop
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159715,HayFevStill
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Hayfever\,phv00159716,HayFevTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Bronchitis\,phv00159717,BronchAttack
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Bronchitis\,phv00159718,BronchDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Bronchitis\,phv00159719,BronchAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Bronchitis\,phv00159720,BronchAgeDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Bronchitis\,phv00159721,BronchTimes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Pneumonia or Bronchopneumonia\,phv00159722,Pneumonia
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Pneumonia or Bronchopneumonia\,phv00159723,PneuDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Pneumonia or Bronchopneumonia\,phv00159724,PneuAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Pneumonia or Bronchopneumonia\,phv00159726,PneuTimes
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Pneumonia or Bronchopneumonia\,phv00159725,PneuAgeDK
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00159727,ChronBronch
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00159845,Chronic_Bronchitis
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00159728,ChronBroncDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00169344,ChronBroncAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00169345,ChronBrncStillHv
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Chronic Bronchitis\,phv00169346,ChronBroncTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Emphysema\,phv00159729,Emphysema
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Emphysema\,phv00159730,EmphDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Emphysema\,phv00169347,EmphAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Emphysema\,phv00169348,EmphStillHave
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Emphysema\,phv00169349,EmphTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159731,COPD
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159732,CopdDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159733,CopdAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159734,CopdStillHave
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159735,CopdTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00169350,COPDExac_Antib_Ster_Home
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00169351,COPDExac_NewRx_Antib_Ster
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00169352,COPDExac_Hospital
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159798,COPDExac_NoTrt
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159799,COPDExac_UsualMed
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\COPD\,phv00159570,finalGold
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Sleep Apnea\,phv00159736,SleepApnea
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Sleep Apnea\,phv00159737,SleepApDxByDr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Sleep Apnea\,phv00159738,SleepApAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Sleep Apnea\,phv00159739,SleepApStillHav
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Sleep Apnea\,phv00159740,SleepApTreat
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Other Chest Illnesses\,phv00159741,ChestIllOther
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Other Chest Illnesses\,phv00159743,ChestOper
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\Other Chest Illnesses\,phv00159745,ChestInj
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\ATS/ERS Classification\,phv00159574,ATS_ERS
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\MMRC Dyspnea Score\,phv00159797,MMRCDyspneaScor
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Respiratory Conditions\BODE Index\,phv00159841,BODE
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159747,EverSmokedCig
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159748,SmokStartAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159749,SmokCigNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159750,CigPerDaySmokNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159751,SmokStopAge
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159752,CigPerDaySmokAvg
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159753,CigSmok24hrs_NA
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159755,CigSmok2hrs
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159756,CigSmokHalfHr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159754,CigSmok24hrs
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00159842,ATS_PackYears
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00169388,Duration_Smoking
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigarette Smoking\,phv00169389,YearsSinceQuit
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159763,SmokCigarReg
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159764,AgeStartSmkCigar
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159765,SmokCigarNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159766,CigarPerDayNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159767,AgeStopSmokCigar
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Cigar Smoking\,phv00159768,SmokCigarPerWeek
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159757,SmokPipeReg
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159758,AgeStartSmokPipe
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159760,QtySmokPipeTob
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159761,AgeStopSmokPipe
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159762,SmokTobPerWeek
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Pipe Smoking\,phv00159759,SmokPipeNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Second-hand Smoke Exposure\,phv00159769,MothSmokPreg
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Second-hand Smoke Exposure\,phv00159771,OthSmokYrs
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Second-hand Smoke Exposure\,phv00159770,OthSmokChildYrs
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Second-hand Smoke Exposure\,phv00159772,ExpSmokAtWorkYr
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Environmental Exposures\Fagerstrom Index\,phv00159847,Fagerstrom_Index
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Work/ Education\,phv00159773,SchoolCompleted
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Work/ Education\,phv00159778,WorkNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Work/ Education\,phv00159783,StopWork
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Exposure to Gas Smoke Chemicals\,phv00159780,ExpFumesNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Job with Dirty Environment\,phv00159775,FumesJobEver
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Job with Dirty Environment\,phv00159779,WorkDustyJobNow
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Educational and Occupational History\Job with Dirty Environment\,phv00159774,DustyJobEver
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Asthma: Father or Mother\,phv00159791,FathAsthma
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Asthma: Father or Mother\,phv00159792,MothAsthma
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Chronic Bronchitis: Father or Mother\,phv00159785,FathChronBronch
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Chronic Bronchitis: Father or Mother\,phv00159786,MothChronBronch
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\COPD: Father, Mother\",phv00159789,FathCOPD
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\COPD: Father, Mother\",phv00159790,MothCOPD
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Emphysema: Father, Mother\",phv00159787,FathEmphysema
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Emphysema: Father, Mother\",phv00159788,MothEmphysema
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Smoker: Father, Mother\",phv00159795,FathCigSmok
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Smoker: Father, Mother\",phv00159796,MothCigSmok
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Lung Cancer: Father, Mother\",phv00159793,FathLungCancer
+"\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Respiratory Disease\Family History\Lung Cancer: Father, Mother\",phv00159794,MothLungCancer
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\St. George's Respiratory Questionnaire\,phv00159809,SGRQ_scoreSymptom
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\St. George's Respiratory Questionnaire\,phv00159810,SGRQ_scoreActive
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\St. George's Respiratory Questionnaire\,phv00159811,SGRQ_scoreImpact
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\St. George's Respiratory Questionnaire\,phv00159812,SGRQ_scoreTotal
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159824,SF36_PF_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159825,SF36_RP_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159826,SF36_RE_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159827,SF36_SF_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159828,SF36_BP_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159829,SF36_VT_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159830,SF36_MH_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159831,SF36_GH_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159832,SF36_PF_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159833,SF36_GH_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159834,SF36_PCS_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00159835,SF36_MCS_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169378,SF36_RP_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169379,SF36_RE_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169380,SF36_SF_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169381,SF36_BP_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169382,SF36_VT_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\SF-36 Health Survey\,phv00169383,SF36_MH_t_score
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00159853,FEV1_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00169395,FEV6_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00159855,FEV1_FVC_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00159854,FVC_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00169397,FEF2575_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Prebronchodilator Pulmonary Function Testing\,phv00169396,PEF_pre
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\BDR\,phv00159858,BDR_pct_FEV1
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\BDR\,phv00159859,BDR_pct_FVC
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\BDR\,phv00159860,BDR
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEV\,phv00159848,FEV1pp_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEV\,phv00159850,FEV1_FVC_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEV\,phv00159851,FEV1_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEV\,phv00159856,deltaFEV1
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEV\,phv00169392,FEV6_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FVC\,phv00159849,FVCpp_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FVC\,phv00159852,FVC_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FVC\,phv00159857,deltaFVC
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\FEF\,phv00169394,FEF2575_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\PFT\,phv00169390,PFT_CT_numdays
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\PFT\,phv00169391,pftused
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Spirometry\Postbronchodilator Pulmonary Function Testing\PEF\,phv00169393,PEF_post
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169353,pctEmph_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169354,pctGasTrap_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169355,TLC_CT_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169356,FRC_CT_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169357,AttenMean_Insp_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169358,AttenMean_Exp_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169359,Hu_15perc_Insp_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169360,Hu_15perc_Exp_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169361,ExpInspMeanAtten_ratio_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169362,pctEmph_UpperLobes_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169363,pctEmph_LowerLobes_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169364,UpperLobe_pctTotalAirVol_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169365,pctEmph_UL_LL_ratio_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169366,Pi10_SRWA_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169367,Pi15_SRWA_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169368,WallAreaPct_seg_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\VIDA\,phv00169369,WallAreaPct_subseg_vida
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\CT-Based FRC/TLC Ratio\,phv00278177,FRC_TLC_ratio
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Quantitative Analysis\,phv00278176,kernel
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\New Gold Classification\,phv00278179,NewGOLD_SGRQ
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Phase of COPDGene Study\,phv00278174,Study_Phase
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\TLC\,phv00278178,TLCpp_low_flag
+\Genetic Epidemiology of COPD (COPDGene)\Subject Phenotype\Longitudinal Analysis\,phv00278175,Visit_Year
+\Genetic Epidemiology of COPD (COPDGene)\Subject Images\,phv00160268,SUBJECT_ID
+\Genetic Epidemiology of COPD (COPDGene)\Subject Images\,phv00160269,ImageFile

@@ -1,0 +1,31 @@
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Affection Status\,phv00253605,AFFECTION_STATUS
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Sociodemography\,phv00265923,sex
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Sociodemography\,phv00265924,race
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Sociodemography\,phv00265925,ethnicity
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Subject IDs and Consents\,phv00253603,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Subject IDs and Consents\,phv00253604,CONSENT
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Subject Sample Mapping\,phv00253606,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Subject Sample Mapping\,phv00253607,SAMPLE_ID
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sociodemography and Administration\Other IDs\,phv00265919,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265920,af_status
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265921,age
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265922,age_diagnosis
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265926,height
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265927,weight
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265928,hypertension
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265929,diabetes
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265930,heart_failure
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265931,myocardial_infarction
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Physical Observations\,phv00265932,valvular_heart_disease
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Laboratory Measurements\,phv00265933,LA_size_echo
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Laboratory Measurements\,phv00265934,LVEF_echo
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Laboratory Measurements\,phv00265935,EF_ever_50
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00253609,SAMPLE_ID
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00253610,BODY_SITE
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00253611,ANALYTE_TYPE
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00253612,IS_TUMOR
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00310118,SEQUENCING_CENTER
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00310119,Funding_Source
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00310120,TOPMed_Phase
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00310121,TOPMed_Project
+\NHLBI TOPMed: The Vanderbilt AF Ablation Registry\Sample Attributes\,phv00310122,Study_Name
