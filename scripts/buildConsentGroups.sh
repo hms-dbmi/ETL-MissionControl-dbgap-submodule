@@ -23,8 +23,6 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://$1/${studyid}/rawData/data/ data/${studyid,,}/ --recursive --exclude "*" --include "*multi*" --include "*Multi*" --include "*MULTI*"
 
-   cp jars/DbgapGlobalVarGenerator.jar ../../
-
    java -jar DbgapGlobalVarGenerator.jar -propertiesfile resources/${studyid,,}/job.config
    
 done

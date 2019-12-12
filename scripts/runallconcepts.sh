@@ -4,15 +4,20 @@
 
 IFS=$'\r\n' GLOBIGNORE='*' command eval  'studyids=($(cat ../studyids.txt))'
 
-   cp ../jars/GenerateAllConcepts.jar ../../
+cp ../jars/GenerateAllConcepts.jar ../../
+
+aws s3 cp s3://$1/general/studyids.txt.csv ./ --quiet
 
 for studyid in ${studyids[@]}; do
+
    echo "running ${studyid}"
+   
    if [ -d "../../data/${studyid}/" ]; then
 
      find ../../data/${studyid}/ -type f -exec rm -rf {} \;
 
    fi
+   
    aws s3 cp s3://$1/$studyid/mappings/mapping.csv ../../mappings/${studyid}/mapping.csv --quiet
    aws s3 cp s3://$1/$studyid/data/ ../../data/${studyid}/ --recursive --quiet
    aws s3 cp s3://$1/$studyid/resources/job.config ../../resources/${studyid}/job.config --quiet
