@@ -146,7 +146,7 @@ for study_id, phv in study_ids.items():
 
     url = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/variable.cgi?study_id=' + study_id + '&phv=' + phv
     
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome('chromedriver_2')
     browser.get(url)
     
     time.sleep(sleep_time)
