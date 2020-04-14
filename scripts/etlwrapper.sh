@@ -90,7 +90,7 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive
 
-   java -jar GenerateAllConcepts.jar -propertiesfile resouces/job.config
+   java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
 
 done
 
