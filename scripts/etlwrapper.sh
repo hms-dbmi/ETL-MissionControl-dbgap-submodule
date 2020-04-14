@@ -61,6 +61,8 @@ for studyid in ${studyids[@]}; do
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv
 
    aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config
+   
+   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ --recursive
 
 done
 echo ""
@@ -85,6 +87,8 @@ for studyid in ${studyids[@]}; do
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv mappings/mapping.csv
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/current.config resources/job.config
+
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive
 
    java -jar GenerateAllConcepts.jar -propertiesfile resouces/job.config
 
