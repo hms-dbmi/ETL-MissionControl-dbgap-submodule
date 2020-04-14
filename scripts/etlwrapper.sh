@@ -39,6 +39,8 @@ echo ""
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
 
+cp ETL-MissionControl-dbgap-submodule/jars/* .
+
 for studyid in ${studyids[@]}; do
 
    find data/ -name "phs*" -exec rm -rf {} \;
