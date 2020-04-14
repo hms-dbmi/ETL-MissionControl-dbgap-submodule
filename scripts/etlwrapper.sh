@@ -62,7 +62,7 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config
    
-   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive
+   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive
 
 done
 echo ""
