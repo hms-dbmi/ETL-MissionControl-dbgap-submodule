@@ -58,7 +58,13 @@ for studyid in ${studyids[@]}; do
 
    java -jar DbgapDecodeFiles.jar
 
+   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
+
+   mv completed/* data/
+
    java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
+
+   java -jar DataAnalyzer.jar -propertiesfile resources/job.config
 
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
@@ -82,9 +88,18 @@ for studyid in ${studyids[@]}; do
    echo ""
 
    find data/ -name "phs*" -exec rm -rf {} \;
+   
+   rm -rf processing/*
 
    rm -rf completed/*
+
+   rm -rf mappings/mapping.part*
+
+   rm -rf resources/config.part*
+
    mkdir data
+   mkdir completed
+   mkdir processing
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv mappings/mapping.csv --quiet
 
@@ -92,11 +107,13 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --quiet
    
-   #java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
+   java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
 
-   java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
+   #java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
+   
+   python runpartition2.py
 
-   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/completed/ --recursive
+   #aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/completed/ --recursive
 
 done
 
