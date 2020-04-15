@@ -74,7 +74,7 @@ if [ $1 = "true"]; then
 
       java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
 
-      aws s3 cp completed/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
+      aws s3 cp data/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
 
       aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
@@ -118,10 +118,7 @@ for studyid in ${studyids[@]}; do
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --quiet
    
    java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
-
-   #java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
    
-   #ython runpartition2.py
    echo ""
    echo "#### Building partitioned files ####"
    echo ""
