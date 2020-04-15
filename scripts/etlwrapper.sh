@@ -74,7 +74,7 @@ for studyid in ${studyids[@]}; do
 
    java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
 
-   aws s3 cp completed/${studyid}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
+   aws s3 cp completed/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
 
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
