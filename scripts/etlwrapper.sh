@@ -39,7 +39,7 @@ aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
 
 cp ETL-MissionControl-dbgap-submodule/jars/* .
 
-if [ $1 = "true"]; then
+if [ $1 = "true" ]; then
    echo ""
    echo "#### Making mappings and update job config for current run ####"
    echo ""
@@ -118,7 +118,7 @@ for studyid in ${studyids[@]}; do
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --quiet
    
    java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
-   
+
    echo ""
    echo "#### Building partitioned files ####"
    echo ""
