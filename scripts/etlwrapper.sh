@@ -54,7 +54,7 @@ for studyid in ${studyids[@]}; do
 
    sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
-   sed -i "s/patientmappingfile=.*/patientmappingfile=data\/${^^studyid}\_PatientMapping.csv/g" resources/job.config
+   sed -i "s/patientmappingfile=.*/patientmappingfile=data\/${studyid^^}\_PatientMapping.csv/g" resources/job.config
 
    echo 'usepatientmapping=Y' >> resources/job.config
 
