@@ -39,53 +39,53 @@ aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
 
 cp ETL-MissionControl-dbgap-submodule/jars/* .
 
-if [ $1 = "true" ]; then
-   echo ""
-   echo "#### Making mappings and update job config for current run ####"
-   echo ""
-   for studyid in ${studyids[@]}; do
 
-      find data/ -name "phs*" -exec rm -rf {} \;
+echo ""
+echo "#### Making mappings and update job config for current run ####"
+echo ""
+for studyid in ${studyids[@]}; do
 
-      rm -rf completed/*
-      mkdir data
+   find data/ -name "phs*" -exec rm -rf {} \;
 
-      aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --quiet
+   rm -rf completed/*
+   mkdir data
 
-      aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --quiet
 
-      sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --quiet
 
-      sed -i "s/patientmappingfile=.*/patientmappingfile=data\/${studyid^^}\_PatientMapping.csv/g" resources/job.config
+   sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
-      echo 'usepatientmapping=Y' >> resources/job.config
+   sed -i "s/patientmappingfile=.*/patientmappingfile=data\/${studyid^^}\_PatientMapping.csv/g" resources/job.config
 
-      aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --quiet
+   echo 'usepatientmapping=Y' >> resources/job.config
 
-      java -jar DbgapDecodeFiles.jar
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --quiet
 
-      aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
+   java -jar DbgapDecodeFiles.jar
 
-      java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
+   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
 
-      find data/ -name "phs*" -exec rm -rf {} \;
+   java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
 
-      mv completed/* data/
+   find data/ -name "phs*" -exec rm -rf {} \;
 
-      java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
+   mv completed/* data/
 
-      aws s3 cp data/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
+   java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
 
-      aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
+   aws s3 cp data/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
 
-      aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config --quiet
-      
-   done
+   aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
-   echo ""
-   echo "#### Finished building mappings and job.config for current run ####"
-   echo ""
-fi
+   aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config --quiet
+   
+done
+
+echo ""
+echo "#### Finished building mappings and job.config for current run ####"
+echo ""
+
 
 echo ""
 echo "#### Building allConcepts.csv for each study ####"
