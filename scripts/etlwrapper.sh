@@ -64,8 +64,6 @@ for studyid in ${studyids[@]}; do
 
    java -jar DbgapDecodeFiles.jar
 
-   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
-
    java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
 
    find data/ -name "phs*" -exec rm -rf {} \;
@@ -74,7 +72,9 @@ for studyid in ${studyids[@]}; do
 
    java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
 
-   aws s3 cp data/${studyid^^}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
+   mv completed/* data/
+
+   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
 
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
