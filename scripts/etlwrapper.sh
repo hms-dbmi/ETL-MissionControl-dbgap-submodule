@@ -54,6 +54,10 @@ for studyid in ${studyids[@]}; do
 
    sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
+   sed -i "s/patientmappingfile=.*/patientmappingfile=data\/${^^studyid}\_PatientMapping.csv/g" resources/job.config
+
+   echo 'usepatientmapping=Y' >> resources/job.config
+
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --quiet
 
    java -jar DbgapDecodeFiles.jar
@@ -62,16 +66,20 @@ for studyid in ${studyids[@]}; do
 
    java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
 
+   find data/ -name "phs*" -exec rm -rf {} \;
+
    mv completed/* data/
 
    java -jar DataAnalyzer.jar -propertiesfile resources/job.config
+
+   java -jar DbGapPMGenerator.jar -propertiesfile resources/job.config
+
+   aws s3 cp completed/${studyid}_PatientMapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/data/
 
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
    aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config --quiet
    
-   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
-
 done
 echo ""
 echo "#### Finished building mappings and job.config for current run ####"
@@ -89,7 +97,7 @@ for studyid in ${studyids[@]}; do
 
    find data/ -name "phs*" -exec rm -rf {} \;
    
-   rm -rf processing/*
+   find processing/ -type f -exec rm -rf {} \;
 
    rm -rf completed/*
 
