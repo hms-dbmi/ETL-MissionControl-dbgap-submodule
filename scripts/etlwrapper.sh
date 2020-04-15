@@ -50,7 +50,7 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --quiet
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "mapping.csv" --include "job.config" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --quiet
 
    sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
@@ -60,9 +60,9 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
 
-   mv completed/* data/
-
    java -jar DbgapTreeBuilder2.jar -dataseperator '\t'
+
+   mv completed/* data/
 
    java -jar DataAnalyzer.jar -propertiesfile resources/job.config
 
