@@ -27,6 +27,9 @@ NPROC=$(nproc)
 
 ## make dir
 echo "#### Making directory structure ####"
+
+find data/  -exec rm -rf {} \;
+
 mkdir data
 mkdir completed
 mkdir hierarchies
@@ -50,9 +53,9 @@ for studyid in ${studyids[@]}; do
    rm -rf completed/*
    mkdir data
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --exclude "*" 
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --exclude "*" 
 
    sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
@@ -60,7 +63,7 @@ for studyid in ${studyids[@]}; do
 
    echo 'usepatientmapping=Y' >> resources/job.config
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive
 
    java -jar DbgapDecodeFiles.jar
 
@@ -74,11 +77,11 @@ for studyid in ${studyids[@]}; do
 
    mv completed/* data/
 
-   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --include "phs*" --include "*PatientMapping.csv" --recursive --quiet
+   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --exclude "*" --include "phs*" --include "*PatientMapping.csv" --recursive
 
-   aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
+   aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv
 
-   aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config --quiet
+   aws s3 cp resources/job.config s3://avillach-73-bdcatalyst-etl/${studyid}/current.config
    
 done
 
@@ -103,9 +106,9 @@ for studyid in ${studyids[@]}; do
 
    rm -rf completed/*
 
-   rm -rf mappings/mapping.part*
+   find mappings/ -name "mapping.part*" -exec rm -rf {} \;
 
-   rm -rf resources/config.part*
+   find resources/ -name "config.part*" -exec rm -rf {} \;
 
    mkdir data
    mkdir completed
@@ -115,7 +118,7 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/current.config resources/job.config --quiet
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --include "phs*" --include "*PatientMapping.csv" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --exclude "*" --include "phs*" --include "*PatientMapping.csv" --quiet
    
    java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
 
