@@ -23,7 +23,7 @@ IFS=$'\r\n' GLOBIGNORE='*' command eval  'studyids=($(cat ./studyids.txt))'
 
 ## checkout repos
 
-
+NPROC=$(nproc)
 
 ## make dir
 echo "#### Making directory structure ####"
@@ -74,7 +74,7 @@ for studyid in ${studyids[@]}; do
 
    mv completed/* data/
 
-   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --recursive --quiet
+   aws s3 cp data/ s3://avillach-73-bdcatalyst-etl/${studyid}/data/ --include "phs*" --include "*PatientMapping.csv" --recursive --quiet
 
    aws s3 cp mappings/mapping.csv s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv --quiet
 
@@ -115,14 +115,14 @@ for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/current.config resources/job.config --quiet
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --include "phs*" --include "*PatientMapping.csv" --quiet
    
    java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
 
    echo ""
    echo "#### Building partitioned files ####"
    echo ""
-   bash runpartition.sh -j 4 -m 3g -c 'config.part*.config' -r resources/
+   bash runpartition.sh -j $NPROC -m 3g -c 'config.part*.config' -r resources/
 
    echo ""
    echo "#### Merging partitioned files ####"
@@ -130,7 +130,6 @@ for studyid in ${studyids[@]}; do
    java -jar MergePartitions.jar -propertiesfile resources/job.config
 
    aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/completed/ --recursive --quiet
-   #aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/completed/ --recursive
 
    echo ""
    echo "#### Finished Building " ${studyid} " allConcepts.csv ####"
