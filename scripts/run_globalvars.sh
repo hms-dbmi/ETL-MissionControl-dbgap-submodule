@@ -40,7 +40,7 @@ for studyid in ${studyids[@]}; do
 
    java -jar ConsentGroupGenerator.jar -propertiesfile resources/job.config
 
-   java -jar P
+   java -jar PHSIdGenerator.jar -propertiesfile resources/job.config
 
 done
 
