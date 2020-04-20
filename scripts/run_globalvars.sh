@@ -28,6 +28,10 @@ for studyid in ${studyids[@]}; do
 
    rm -rf resources/job.config
 
+   find data/ -name "phs*" -exec rm -rf {} \;
+
+   rm -rf data/${studyid^^}_PatientMapping.csv
+
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --exclude "*" --include "*subject.multi*" --include "*Subject.Multi*" --include "*Subject.MULTI*"
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/job.config resources/job.config
