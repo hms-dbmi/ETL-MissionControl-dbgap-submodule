@@ -24,6 +24,9 @@ mkdir completed
 mkdir hierarchies
 mkdir processing
 
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
+
+
 for studyid in ${studyids[@]}; do
 
    rm -rf resources/job.config
