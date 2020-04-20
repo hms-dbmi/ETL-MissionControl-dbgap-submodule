@@ -43,7 +43,15 @@ for studyid in ${studyids[@]}; do
 
    java -jar ConsentGroupGenerator.jar -propertiesfile resources/job.config
 
-   java -jar PHSIdGenerator.jar -propertiesfile resources/job.config
+done
+
+
+for studyid in ${studyids[@]}; do
+
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --exclude "*" --include "*subject.multi*" --include "*Subject.Multi*" --include "*Subject.MULTI*"
+
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/${studyid^^}_PatientMapping.csv data/
 
 done
 
+java -jar PHSIdGenerator.jar -propertiesfile resources/job.config
