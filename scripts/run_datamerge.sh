@@ -33,3 +33,11 @@ mkdir processing
 for studyid in ${studyids[@]}; do
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/completed/${studyid^^}_allConcepts.csv data/
 done
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/completed/HRMN_allConcepts.csv data/
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/completed/GLOBAL_allConcepts.csv data/
+
+java -jar DbGapDataMerge.jar
+
+
