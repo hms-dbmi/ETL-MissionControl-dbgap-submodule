@@ -74,4 +74,6 @@ for studyid in ${studyids[@]}; do
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/${studyid^^}_PatientMapping.csv data/
 done
 
+aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/HRMN_PatientMapping.csv data/
+
 java -jar HarmonizedSyncPatients.jar -propertiesfile resources/job.config
