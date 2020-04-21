@@ -17,6 +17,12 @@ find data/ -type f -exec rm -rf {} \;
 
 find completed/ -type f -exec rm -rf {} \;
 
+find processing/ -type f -exec rm -rf {} \;
+
+find resources/ -type f -exec rm -rf {} \;
+
+find mappings/ -type f -exec rm -rf {} \;
+
 cp ETL-MissionControl-dbgap-submodule/jars/* .
 
 mkdir data
