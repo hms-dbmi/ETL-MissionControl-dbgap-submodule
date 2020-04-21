@@ -36,19 +36,15 @@ aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/ data/ --recursive
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/resources/job.config resources/
 
-aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/mappings/mapping.csv resources/
+aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/mappings/mapping.csv mappings/
 
 java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
 
 echo ""
-echo "#### Building partitioned files ####"
+echo "#### Building Harmonized files ####"
 echo ""
-bash runpartition.sh -j $NPROC -m 3g -c 'config.part*.config' -r resources/
 
-echo ""
-echo "#### Merging partitioned files ####"
-echo ""
-java -jar MergePartitions.jar -propertiesfile resources/job.config
+java -jar GenerateAllConcepts.csv -propertiesfile resources/job.config
 
 aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/hrmn/completed/ --recursive --quiet
 
