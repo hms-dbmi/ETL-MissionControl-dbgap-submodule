@@ -26,6 +26,7 @@ mkdir processing
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
 
+echo "#### Building Consent groups ####" 
 
 for studyid in ${studyids[@]}; do
 
@@ -45,6 +46,11 @@ for studyid in ${studyids[@]}; do
 
 done
 
+aws s3 cp completed/ConsentGroupVariable.csv s3://avillach-73-bdcatalyst-etl/general/data/
+
+echo "#### Finished Building Consent global vars ####" 
+
+echo "#### Building phs subject ids ####" 
 
 for studyid in ${studyids[@]}; do
 
@@ -55,3 +61,29 @@ for studyid in ${studyids[@]}; do
 done
 
 java -jar PHSIdGenerator.jar -propertiesfile resources/job.config
+
+aws s3 cp completed/AccessionIds.csv s3://avillach-73-bdcatalyst-etl/general/data/
+
+echo "#### Finished Building phs subject ids ####" 
+
+echo "#### Building Global Allconcepts ####" 
+
+find data/ -type f -exec rm -rf {} \;
+
+find completed/ -type f -exec rm -rf {} \;
+
+find resources/ -type f -exec rm -rf {} \;
+
+find mappings/ -type f -exec rm -rf {} \;
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/resources/job.config resources/
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/mappings/mapping.csv mappings/ 
+
+java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
+
+
+
+
