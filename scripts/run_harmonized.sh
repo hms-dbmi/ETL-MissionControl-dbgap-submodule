@@ -44,7 +44,7 @@ echo ""
 echo "#### Building Harmonized files ####"
 echo ""
 
-java -jar GenerateAllConcepts.csv -propertiesfile resources/job.config
+java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
 
 aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/hrmn/completed/ --recursive --quiet
 
