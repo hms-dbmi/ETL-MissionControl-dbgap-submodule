@@ -26,7 +26,7 @@ mkdir processing
 
 echo '### Building DCC Harmonized data set'
 
-aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/ data/
+aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/ data/ --recursive
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/resources/job.config resources/
 
@@ -62,7 +62,7 @@ find data/ -type f -exec rm -rf {} \;
 
 find completed/ -type f -exec rm -rf {} \;
 
-aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/ data/
+aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/data/ data/ --recursive
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/hrmn/completed/HRMN_allConcepts.csv data/
 
