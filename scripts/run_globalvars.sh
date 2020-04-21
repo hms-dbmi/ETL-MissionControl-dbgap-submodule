@@ -84,6 +84,6 @@ aws s3 cp s3://avillach-73-bdcatalyst-etl/general/mappings/mapping.csv mappings/
 
 java -jar GenerateAllConcepts.jar -propertiesfile resources/job.config
 
-
+aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/general/completed/ --recursive
 
 
