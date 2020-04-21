@@ -19,6 +19,8 @@ find data/ -name "phs*" -exec rm -rf {} \;
 
 find completed/ -type f -exec rm -rf {} \;
 
+cp ETL-MissionControl-dbgap-submodule/jars/* .
+
 mkdir data
 mkdir completed
 mkdir hierarchies
