@@ -52,11 +52,15 @@ aws s3 cp completed/ConsentGroupVariable.csv s3://avillach-73-bdcatalyst-etl/gen
 
 echo "#### Finished Building Consent global vars ####" 
 
-echo "#### Building phs subject ids ####" 
+echo "#### Building phs subject ids and sample ids ####" 
+
+find data/ -name "phs*" -exec rm -rf {} \;
 
 for studyid in ${studyids[@]}; do
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --exclude "*" --include "*subject.multi*" --include "*Subject.Multi*" --include "*Subject.MULTI*"
+
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ data/ --recursive --exclude "*" --include "*sample.multi*" --include "*Sample.Multi*" --include "*Sample.MULTI*"
 
    aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/${studyid^^}_PatientMapping.csv data/
 
@@ -64,9 +68,13 @@ done
 
 java -jar PHSIdGenerator.jar -propertiesfile resources/job.config
 
+java -jar SampleIdGenerator.jar -propertiesfile resources/job.config
+
 aws s3 cp completed/AccessionIds.csv s3://avillach-73-bdcatalyst-etl/general/data/
 
-echo "#### Finished Building phs subject ids ####" 
+aws s3 cp completed/SampleIds.csv s3://avillach-73-bdcatalyst-etl/general/data/
+
+echo "#### Finished Building phs subject ids and sample ids ####" 
 
 echo "#### Building Global Allconcepts ####" 
 
