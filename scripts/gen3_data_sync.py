@@ -42,7 +42,7 @@ def logmsgs(logger, stdout, stderr):
 
 # Initialize loggers
 mainlogger = setup_logger('mainlogger','main.log', loglevel, logging.Formatter('%(asctime)s %(levelname)s %(message)s'))
-errorlogger = setup_logger('errorlogger','errorlogger.log', loglevel, logging.Formatter('%(asctime)s %(levelname)s %(message)s'))
+#errorlogger = setup_logger('errorlogger','errorlogger.log', loglevel, logging.Formatter('%(asctime)s %(levelname)s %(message)s'))
 
 
 # get all phs values from managed input
@@ -57,9 +57,10 @@ json_data = json.loads(open('data/file-manifest.json').read())
 
 for o in json_data:
     if o['file_name'].split(".")[0] in phs_list:
+        
         study_name = phs_list[o['file_name'].split(".")[0]]
 
-        args = ['gen3-client' ,'download-single', '--profile=demo', '--guid=' + o['object_id'], '--download-path', 'downloads', '--no-prompt']
+        args = ['gen3-client' ,'download-single', '--profile=jenkins', '--guid=' + o['object_id'], '--download-path', 'downloads', '--no-prompt']
         print(args)
         stdout,stderr = cmdWrapper(*args)
 
