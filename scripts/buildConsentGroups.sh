@@ -21,7 +21,7 @@ for studyid in ${studyids[@]}; do
 
    #aws s3 cp s3://stage-${studyid}-etl/resources/job.config resources/job.config
 
-   aws s3 cp s3://$1/${studyid}/rawData/data/ data/${studyid,,}/ --recursive --exclude "*" --include "*multi*" --include "*Multi*" --include "*MULTI*"
+   aws s3 cp s3://$1/${studyid}/rawData/data/ data/ --recursive --exclude "*" --include "*multi*" --include "*Multi*" --include "*MULTI*"
 
    java -jar DbgapGlobalVarGenerator.jar -propertiesfile resources/${studyid,,}/job.config
    

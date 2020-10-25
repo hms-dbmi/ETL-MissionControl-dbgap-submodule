@@ -19,6 +19,8 @@
 #
 ####
 
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/ studyids.txt
+
 IFS=$'\r\n' GLOBIGNORE='*' command eval  'studyids=($(cat ./studyids.txt))'
 
 ## checkout repos
@@ -37,6 +39,9 @@ mkdir processing
 echo "########"
 ## build or update mapping file
 
+echo ""
+echo "#### General Setup ####"
+echo ""
 
 aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
 
@@ -44,8 +49,14 @@ cp ETL-MissionControl-dbgap-submodule/jars/* .
 
 
 echo ""
-echo "#### Making mappings and update job config for current run ####"
+echo "#### Build initial mappings and update job config for current etl run ####"
 echo ""
+
+aws s3 cp s3://avillach-73-bdcatalyst-etl/general/data/ data/ --recursive
+
+cp ETL-MissionControl-dbgap-submodule/jars/* .
+
+
 for studyid in ${studyids[@]}; do
 
    find data/ -name "phs*" -exec rm -rf {} \;
@@ -53,9 +64,11 @@ for studyid in ${studyids[@]}; do
    rm -rf completed/*
    mkdir data
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv" --exclude "*" 
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/mappings/ mappings/ --recursive --include "mapping.csv"
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config" --exclude "*" 
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/resources/ resources/ --recursive --include "job.config"
+
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/dict/ s3://avillach-73-bdcatalyst-etl/${studyid}/rawData/data/ --recursive
 
    sed -i "s/skipdataheader=Y/skipdataheader=N/g" resources/job.config
 
@@ -92,7 +105,7 @@ echo ""
 
 echo ""
 echo "#### Building allConcepts.csv for each study ####"
-echo ""
+echo "" 
 
 for studyid in ${studyids[@]}; do
 
@@ -114,13 +127,13 @@ for studyid in ${studyids[@]}; do
    mkdir completed
    mkdir processing
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/currentmapping.csv mappings/mapping.csv --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/copdgene/currentmapping.csv mappings/mapping.csv
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/current.config resources/job.config --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/copdgene/current.config resources/job.config
 
-   aws s3 cp s3://avillach-73-bdcatalyst-etl/${studyid}/data/ data/ --recursive --exclude "*" --include "phs*" --include "*PatientMapping.csv" --quiet
+   aws s3 cp s3://avillach-73-bdcatalyst-etl/copdgene/data/ data/ --recursive --exclude "*" --include "phs*" --include "*PatientMapping.csv"
    
-   java -jar Partitioner.jar -propertiesfile resources/job.config --quiet
+   java -jar Partitioner.jar -propertiesfile resources/job.config 
 
    echo ""
    echo "#### Building partitioned files ####"
@@ -132,7 +145,7 @@ for studyid in ${studyids[@]}; do
    echo ""
    java -jar MergePartitions.jar -propertiesfile resources/job.config
 
-   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/${studyid}/completed/ --recursive --quiet
+   aws s3 cp completed/ s3://avillach-73-bdcatalyst-etl/copdgene/completed/ --recursive --quiet
 
    echo ""
    echo "#### Finished Building " ${studyid} " allConcepts.csv ####"
