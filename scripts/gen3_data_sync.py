@@ -71,7 +71,7 @@ for o in json_data:
                 print(args)
                 stdout,stderr = cmdWrapper(*args)
 
-            args = ['aws', 's3', 'cp', 'downloads/', "s3://avillach-73-bdcatalyst-etl/" + study_name.lower()  + '/rawData/', '--recursive']
+            args = ['aws', 's3', 'cp', 'downloads/', "s3://avillach-73-bdcatalyst-etl/" + study_name.lower()  + '/rawData/', '--recursive', '--exclude', '*.gz']
             print(args)
             stdout,stderr = cmdWrapper(*args)
             print(stdout)
