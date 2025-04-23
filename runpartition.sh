@@ -16,6 +16,7 @@ echo $maxjobs
 echo $configfile
 echo $resdir
 
+rm -f -r etl_logs
 mkdir etl_logs
 
 for filename in ${resdir}${configfile}; do
